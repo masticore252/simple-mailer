@@ -1,0 +1,23 @@
+{
+    "name": "trebla/simple-mailer",
+    "description": "A simple swiftmailer wrapper with a fluent API",
+    "type": "library",
+    "require": {
+        "swiftmailer/swiftmailer": "^5.4",
+        "twig/twig": "^1.32"
+    },
+    "require-dev": {
+        "pds/skeleton": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "trebla\\simpleMailer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Albert Vasquez",
+            "email": "masticore252@gmail.com"
+        }
+    ]
+}
